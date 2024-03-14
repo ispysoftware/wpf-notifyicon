@@ -4,7 +4,11 @@
     <AssemblyName>Hardcodet.NotifyIcon.Wpf</AssemblyName>
     <AssemblyTitle>NotifyIcon for WPF</AssemblyTitle>
     <Product>NotifyIcon WPF</Product>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
   </PropertyGroup>
+  <ItemGroup>
+    <None Remove="D:\Projects\agent-service\\icon.png" />
+  </ItemGroup>
 
   <ItemGroup>
     <None Include="Diagrams\TaskbarIcon Overview.cd" />
