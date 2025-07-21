@@ -7,7 +7,7 @@
     <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
   </PropertyGroup>
   <ItemGroup>
-    <None Remove="D:\Projects\agent-service\\icon.png" />
+    <!--<None Remove="D:\Projects\agent-service\\icon.png" />-->
   </ItemGroup>
 
   <ItemGroup>
